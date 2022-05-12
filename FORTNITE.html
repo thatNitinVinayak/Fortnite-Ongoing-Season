@@ -12,9 +12,9 @@
 
 		body {background-image : url('https://github.com/thatNitinVinayak/Fortnite-Ongoing-Season/blob/main/Chapter3_DefaultLoadingScreen.JPG?raw=true')} 
 	
-		#bigfnt { text-align : center; font-family : "Burbank Big"; color : #0d1016; font-size : 47px; }	
-		#smallfnt { font-family : "Burbank Big"; color : #0d1016; text-align : center; font-size : 30px; }
-		#timer { font-family : "Burbank Big"; color : #0d1016; text-align : center; font-size : 30px; }
+		#bigfnt { text-align : center; font-family : "Burbank Big"; color : #07090f; font-size : 47px; }	
+		#smallfnt { font-family : "Burbank Big"; color : #07090f; text-align : center; font-size : 30px; }
+		#timer { font-family : "Burbank Big"; color : #07090f; text-align : center; font-size : 30px; }
 
 	</style>
 	
@@ -36,7 +36,7 @@
 
 <script>
 
-var timerDate = new Date("Jun 4 2022 00:00:00").getTime();
+var timerDate = new Date("Jun 3 2022 23:59:59").getTime();
 var x = setInterval(function() 
 {
   var now = new Date().getTime();
@@ -53,7 +53,7 @@ var x = setInterval(function()
     document.getElementById("timer").innerHTML = "EXPIRED";
   }
 }, 1000);
-	
+
 </script>
 
 </body>
