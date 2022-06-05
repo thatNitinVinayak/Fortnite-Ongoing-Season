@@ -38,13 +38,13 @@
 		alt = "" align = "centre" width = 500 height = 281> </a> </nav>
 	
 	<p id = "bigfnt"> CHAPTER 3 SEASON 3 : VIBIN </p>
-	<P id = "smallfnt"> FROM : 5 Jun 2022 | TO : TBD </p>
+	<P id = "smallfnt"> FROM : 5 June 2022 | TO : 17 September 2022 </p>
 
    <p id = "timer"></p>
 
 <script>
 
-var timerDate = new Date("Jun 5 2022 01:42:00").getTime();
+var timerDate = new Date("Sept 17 2022 09:30:00").getTime();
 var x = setInterval(function() 
 {
   var now = new Date().getTime();
@@ -53,8 +53,8 @@ var x = setInterval(function()
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("timer").innerHTML = "CHAPTER 3 SEASON 2 ENDS IN : " + days + "D " + hours + "H "
-  + minutes + "M " + seconds + "S";
+  document.getElementById("timer").innerHTML = "CHAPTER 3 SEASON 3 ENDS IN : " 
+		+ days + "D " + hours + "H " + minutes + "M " + seconds + "S";
   if (distance < 0) 
   {
     clearInterval(x);
